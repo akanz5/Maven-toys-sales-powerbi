@@ -10,7 +10,7 @@ Build an interactive Power BI report to analyse sales, gross profit and product 
 
 - **Power Query:** Imported Sales, Products, Stores and Inventory CSV files. Cleaned currency symbols from product prices and costs, and corrected numeric and date data types.
 - **Data modelling:** Connected Products and Stores to both Sales and Inventory using one-to-many relationships with single-direction filtering.
-- **DAX calculated columns:** Calculated revenue as units × product price, product cost as units × unit cost, and gross profit as revenue − cost. Used `RELATED()` to retrieve prices and costs from the Products table.
+- **DAX calculated columns:** Calculated revenue as units * product price, product cost as units * unit cost, and gross profit as revenue − cost. Used `RELATED()` to retrieve prices and costs from the Products table.
 - **DAX measures:** Created Total Revenue, Total Product Cost, Total Gross Profit and Total Units Sold using `SUM()`, and Total Sales Transactions using `DISTINCTCOUNT()`.
 - **Visual analysis:** Built a monthly revenue trend, revenue and profit comparison by category, top 10 stores chart, units sold share donut and product performance matrix. Added year, month, category, city and store slicers.
 
