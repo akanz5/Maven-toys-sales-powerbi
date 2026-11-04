@@ -6,6 +6,10 @@ Power BI analysis of Maven Toys revenue, gross profit, product categories and st
 
 Build an interactive Power BI report to analyse sales, gross profit and product performance across stores, helping retail managers identify trends and opportunities for further investigation.
 
+## Dashboard Preview
+
+![Maven Toys Sales Performance Dashboard](Dashboard.png)
+
 ## Analysis Performed
 
 - **Power Query:** Imported Sales, Products, Stores and Inventory CSV files. Cleaned currency symbols from product prices and costs, and corrected numeric and date data types.
